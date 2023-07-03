@@ -14,7 +14,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-22.04, ubuntu-20.04, macos-11, macos-12, windows-2019]
-        solver: [z3-4.8.5, z3-4.12.1]
+        solver: [z3-4.8.5, z3-4.12.2]
     steps:
       - name: Check out
         uses: actions/checkout@v3
